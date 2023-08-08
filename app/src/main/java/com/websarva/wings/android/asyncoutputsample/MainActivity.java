@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             Log.i("AsyncOutputSample", "Toast.makeText()開始前");
             Toast.makeText(MainActivity.this,"トースト表示",Toast.LENGTH_LONG).show();
-            Log.i("AsyncOutputSample", "Toast.makeText()開始前");
+            Log.i("AsyncOutputSample", "Toast.makeText()開始後");
         }
     }
 }
