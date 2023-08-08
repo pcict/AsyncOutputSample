@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         btToast.setOnClickListener(new ToastClickListener());
     }
 
-    //５秒待機メソッド
+    //無駄ループメソッド
     public void LoopMethod(String threadName){
         try {
             Log.i("AsyncOutputSample", threadName + ":Loop開始");
